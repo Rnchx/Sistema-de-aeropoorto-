@@ -136,17 +136,17 @@ int main(void) {
 
     int opcao;
     do {
-        printf("\n╔══════════════════════════════════╗\n");
-        printf("║    SISTEMA DE MALHA AEREA ANAC   ║\n");
-        printf("╠══════════════════════════════════╣\n");
-        printf("║ 1. Cadastrar aeroporto            ║\n");
-        printf("║ 2. Cadastrar voo                  ║\n");
-        printf("║ 3. Remover voo                    ║\n");
-        printf("║ 4. Listar voos de um aeroporto    ║\n");
-        printf("║ 5. Listar trajetos possiveis      ║\n");
-        printf("║ 6. Listar todos os aeroportos     ║\n");
-        printf("║ 0. Sair                           ║\n");
-        printf("╚══════════════════════════════════╝\n");
+        printf("\n╔════════════════════════════════════╗\n");
+        printf("║    SISTEMA DE MALHA AEREA ANAC     ║\n");
+        printf("╠════════════════════════════════════╣\n");
+        printf("║ 1. Cadastrar aeroporto             ║\n");
+        printf("║ 2. Cadastrar voo                   ║\n");
+        printf("║ 3. Remover voo                     ║\n");
+        printf("║ 4. Listar voos de um aeroporto     ║\n");
+        printf("║ 5. Listar trajetos possiveis       ║\n");
+        printf("║ 6. Listar todos os aeroportos      ║\n");
+        printf("║ 0. Sair                            ║\n");
+        printf("╚════════════════════════════════════╝\n");
         printf("  Opcao: ");
 
         if (scanf("%d", &opcao) != 1) {
